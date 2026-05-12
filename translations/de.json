@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Koplenti ACStorage einrichten",
+        "description": "Gib die Verbindungsdaten deines Koplenti-Geräts ein.",
+        "data": {
+          "host": "IP-Adresse",
+          "password": "Master-Code (Passwort)",
+          "service_code": "Service-Code"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung fehlgeschlagen"
+    },
+    "abort": {
+      "already_configured": "Dieses Gerät ist bereits konfiguriert."
+    }
+  }
+}
